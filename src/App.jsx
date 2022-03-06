@@ -15,4 +15,4 @@ function App() { // componente contenedor
   );
 }
 
-export default App;
+export default App
