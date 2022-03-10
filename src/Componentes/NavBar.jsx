@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import NavDropdown from "react-bootstrap/NavDropdown"
-import Widget from "../Widget/Widget"
+import CartWidget from "../Widget/CartWidget"
 
 function NavBar() {
     return (
@@ -24,7 +24,7 @@ function NavBar() {
             </Nav>
             <Nav>
                 <Nav.Link eventKey={2} href="carrito">
-                    <Widget />
+                    <CartWidget />
                 </Nav.Link>
             </Nav>
             </Navbar.Collapse>
